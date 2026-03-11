@@ -10,8 +10,14 @@
 user = { "items": ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"],
          "name": "John Doe",
          "age": 30,}
-print(user.get("age", 50))
-user2 = dict(name="Sarah Arsala", age=25)
-print(user2["name"], user2["age"])
-print(user2)
-
+#print(user.get("age", 50))
+#user2 = dict(name="Sarah Arsala", age=25)
+#print(user2["name"], user2["age"])
+#print(user2)
+#print("Sarah Arsala" in user2["name"])
+#print(user2.items())
+#user2 = user.copy() 
+#print(user2)
+#print(user2.update({"name": "Sarah Arsala", "age": 25}))
+print(user.update({"name": "Sarah Arsala", "age": 25}))
+print(user)
